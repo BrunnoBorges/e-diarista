@@ -3,7 +3,7 @@ import { Avatar, Rating } from "@material-ui/core";
 
 export const UserInterfaceContainer = styled("div")`
   display: grid;
-  grid-template-columns: 60px 1fr;
+  grid-template-columns: 100px 1fr;
   grid-template-rows: repeat(3, auto);
   grid-template-areas:
     "avatar name"
