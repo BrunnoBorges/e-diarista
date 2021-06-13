@@ -28,7 +28,7 @@ export const UserDescription = styled("div")`
 `;
 export const AvatarStyled = styled(Avatar)`
   grid-area: avatar;
-  width: 100%;
+  width: 80%;
   height: initial;
   aspect-ratio: 1;
 `;

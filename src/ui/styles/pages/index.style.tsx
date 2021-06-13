@@ -31,7 +31,7 @@ export const ProffissiobalContainer = styled("div")`
   grid-template-columns: 1fr;
 
   ${({ theme }) => theme.breakpoints.up("md")} {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: ${({ theme }) => theme.spacing(6)};
   }
   ${({ theme }) => theme.breakpoints.down("md")} {
